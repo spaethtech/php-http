@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace MVQN\HTTP\Slim\Middleware\Routing;
+namespace rspaeth\HTTP\Slim\Middleware\Routing;
 
-use MVQN\HTTP\Twig\Extensions\QueryStringRoutingExtension;
+use rspaeth\HTTP\Twig\Extensions\QueryStringRoutingExtension;
 use Psr\Container\ContainerInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;

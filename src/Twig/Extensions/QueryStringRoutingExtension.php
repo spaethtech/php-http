@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
-namespace MVQN\HTTP\Twig\Extensions;
+namespace rspaeth\HTTP\Twig\Extensions;
 
-use MVQN\Common\Arrays;
-use MVQN\Common\Strings;
+use rspaeth\Common\Arrays;
+use rspaeth\Common\Strings;
 use Slim\App;
 use Slim\Container;
 use Slim\Router;
@@ -17,7 +17,7 @@ use Twig\TwigFunction;
 /**
  * Class Extension
  *
- * @package MVQN\Twig
+ * @package rspaeth\Twig
  * @author Ryan Spaeth <rspaeth@mvqn.net>
  */
 class QueryStringRoutingExtension extends Extension\AbstractExtension implements GlobalsInterface
