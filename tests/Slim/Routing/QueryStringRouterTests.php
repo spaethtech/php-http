@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 
 
-namespace rspaeth\HTTP\Slim\Middleware\Routing;
+namespace MVQN\HTTP\Slim\Middleware\Routing;
 
 define("TESTING", 123);
 
@@ -11,7 +11,7 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Response;
-use rspaeth\HTTP\Slim\Routing\Exceptions\WebServerNotRunningException;
+use MVQN\HTTP\Slim\Routing\Exceptions\WebServerNotRunningException;
 use PHPUnit\Framework\TestCase;
 
 

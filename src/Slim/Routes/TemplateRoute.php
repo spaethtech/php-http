@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace rspaeth\HTTP\Slim\Routes;
+namespace MVQN\HTTP\Slim\Routes;
 
-use rspaeth\HTTP\Slim\Middleware\Authentication\AuthenticationHandler;
-use rspaeth\HTTP\Slim\Middleware\Authentication\Authenticators\Authenticator;
+use MVQN\HTTP\Slim\Middleware\Authentication\AuthenticationHandler;
+use MVQN\HTTP\Slim\Middleware\Authentication\Authenticators\Authenticator;
 
 use Slim\App;
 use Slim\Container;

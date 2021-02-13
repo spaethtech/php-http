@@ -5,7 +5,7 @@
  * @license https://craftcms.github.io/license/
  */
 
-namespace rspaeth\HTTP\Twig\Nodes;
+namespace MVQN\HTTP\Twig\Nodes;
 
 /**
  * Class SwitchNode

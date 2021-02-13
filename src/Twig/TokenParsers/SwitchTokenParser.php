@@ -5,9 +5,9 @@
  * @license https://craftcms.github.io/license/
  */
 
-namespace rspaeth\HTTP\Twig\TokenParsers;
+namespace MVQN\HTTP\Twig\TokenParsers;
 
-use rspaeth\HTTP\Twig\Nodes\SwitchNode;
+use MVQN\HTTP\Twig\Nodes\SwitchNode;
 use Twig\TokenParser;
 
 /**

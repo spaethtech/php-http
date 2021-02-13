@@ -1,5 +1,5 @@
 {
-    "name": "rspaeth/http",
+    "name": "mvqn/http",
     "description": "Some common HTTP libraries.",
     "type": "library",
     "license": "MIT",
@@ -14,11 +14,11 @@
 
         "ext-json": "*",
 
-        "rspaeth/common": "*",
+        "mvqn/common": "dev-master",
 
-        "slim/slim": "^3.1",
-        "twig/twig": "^2.11",
-        "slim/twig-view": "^2.0"
+        "slim/slim": "~4",
+        "twig/twig": "~3",
+        "slim/twig-view": "~3"
     },
     "require-dev": {
         "phpunit/phpunit": "~9",
@@ -27,17 +27,14 @@
     },
     "autoload": {
         "psr-4": {
-            "rspaeth\\HTTP\\": "./src/"
+            "MVQN\\HTTP\\": "./src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "rspaeth\\HTTP\\": "./tests/"
+            "MVQN\\HTTP\\": "./tests/"
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        { "type": "path", "url": "../*"}
-    ]
+    "prefer-stable": true
 }

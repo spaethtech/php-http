@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace rspaeth\HTTP\Slim\Middleware\Views;
+namespace MVQN\HTTP\Slim\Middleware\Views;
 
 use Interop\Container\Exception\ContainerException;
-use rspaeth\HTTP\Slim\Middleware\Views\Exceptions\InvalidTemplatePathException;
-use rspaeth\HTTP\Twig\Extensions\QueryStringRoutingExtension;
-use rspaeth\HTTP\Twig\Extensions\SwitchExtension;
+use MVQN\HTTP\Slim\Middleware\Views\Exceptions\InvalidTemplatePathException;
+use MVQN\HTTP\Twig\Extensions\QueryStringRoutingExtension;
+use MVQN\HTTP\Twig\Extensions\SwitchExtension;
 use Slim\Container;
 use Slim\Http\Environment;
 use Slim\Http\Request;

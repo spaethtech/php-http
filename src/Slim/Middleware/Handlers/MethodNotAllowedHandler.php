@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace rspaeth\HTTP\Slim\Middleware\Handlers;
+namespace MVQN\HTTP\Slim\Middleware\Handlers;
 
 use Slim\Container;
 use Slim\Http\Request;

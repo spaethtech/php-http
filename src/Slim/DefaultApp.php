@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace rspaeth\HTTP\Slim;
+namespace MVQN\HTTP\Slim;
 
-use rspaeth\HTTP\Slim\Middleware\Handlers\MethodNotAllowedHandler;
-use rspaeth\HTTP\Slim\Middleware\Handlers\NotFoundHandler;
-use rspaeth\HTTP\Slim\Middleware\Handlers\UnauthorizedHandler;
-use rspaeth\HTTP\Slim\Middleware\Views\TwigView;
-use rspaeth\HTTP\Twig\Extensions\SwitchExtension;
+use MVQN\HTTP\Slim\Middleware\Handlers\MethodNotAllowedHandler;
+use MVQN\HTTP\Slim\Middleware\Handlers\NotFoundHandler;
+use MVQN\HTTP\Slim\Middleware\Handlers\UnauthorizedHandler;
+use MVQN\HTTP\Slim\Middleware\Views\TwigView;
+use MVQN\HTTP\Twig\Extensions\SwitchExtension;
 use Slim\App;
 
 class DefaultApp extends App

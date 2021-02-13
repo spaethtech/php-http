@@ -4,12 +4,12 @@ declare(strict_types=1);
 require_once __DIR__ . "/../vendor/autoload.php";
 require_once __DIR__ . "/bootstrap.php";
 
-use rspaeth\HTTP\Slim\Middleware\Authentication\AuthenticationHandler;
-use rspaeth\HTTP\Slim\Middleware\Authentication\Authenticators\FixedAuthenticator;
+use MVQN\HTTP\Slim\Middleware\Authentication\AuthenticationHandler;
+use MVQN\HTTP\Slim\Middleware\Authentication\Authenticators\FixedAuthenticator;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
-use rspaeth\HTTP\Slim\Routes;
+use MVQN\HTTP\Slim\Routes;
 use Slim\Route;
 
 
