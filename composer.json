@@ -9,6 +9,8 @@
             "email": "rspaeth@mvqn.net"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "~7.3",
 
@@ -16,8 +18,8 @@
 
         "mvqn/common": "dev-master",
 
-        "slim/slim": "~4",
-        "twig/twig": "~3",
+        "slim/slim": "~3",
+        "twig/twig": "~2",
         "slim/twig-view": "~3"
     },
     "require-dev": {
@@ -34,7 +36,6 @@
         "psr-4": {
             "MVQN\\HTTP\\": "./tests/"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
+
 }
