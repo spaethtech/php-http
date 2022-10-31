@@ -1,12 +1,12 @@
 {
-    "name": "mvqn/http",
+    "name": "spaethtech/http",
     "description": "Some common HTTP libraries.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Ryan Spaeth",
-            "email": "rspaeth@mvqn.net"
+            "email": "rspaeth@spaethtech.com"
         }
     ],
     "minimum-stability": "dev",
@@ -16,7 +16,7 @@
 
         "ext-json": "*",
 
-        "mvqn/common": "dev-master",
+        "spaethtech/common": "dev-master",
 
         "slim/slim": "~3",
         "twig/twig": "~2",
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MVQN\\HTTP\\": "./src/"
+            "SpaethTech\\HTTP\\": "./src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MVQN\\HTTP\\": "./tests/"
+            "SpaethTech\\HTTP\\": "./tests/"
         }
     }
 

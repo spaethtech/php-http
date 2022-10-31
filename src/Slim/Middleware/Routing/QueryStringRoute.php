@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MVQN\HTTP\Slim\Middleware\Routing;
+namespace SpaethTech\HTTP\Slim\Middleware\Routing;
 
 class QueryStringRoute
 {

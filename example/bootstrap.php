@@ -2,12 +2,12 @@
 declare(strict_types=1);
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use MVQN\HTTP\Slim\DefaultApp;
-use MVQN\HTTP\Slim\Middleware\Views\TwigView;
+use SpaethTech\HTTP\Slim\DefaultApp;
+use SpaethTech\HTTP\Slim\Middleware\Views\TwigView;
 
-use MVQN\HTTP\Slim\Middleware\Authentication\Authenticators\FixedAuthenticator;
-use MVQN\HTTP\Slim\Middleware\Routing\QueryStringRouter;
-use MVQN\HTTP\Twig\Extensions\QueryStringRoutingExtension;
+use SpaethTech\HTTP\Slim\Middleware\Authentication\Authenticators\FixedAuthenticator;
+use SpaethTech\HTTP\Slim\Middleware\Routing\QueryStringRouter;
+use SpaethTech\HTTP\Twig\Extensions\QueryStringRoutingExtension;
 use Slim\Views\Twig;
 
 /** @noinspection PhpUnhandledExceptionInspection */

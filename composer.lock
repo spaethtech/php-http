@@ -7,11 +7,11 @@
     "content-hash": "ebe6175c69e201db7e80b0b80fcb8673",
     "packages": [
         {
-            "name": "mvqn/common",
+            "name": "spaethtech/common",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gitlab.com/mvqn/common.git",
+                "url": "https://gitlab.com/spaethtech/common.git",
                 "reference": "73576ee5895e235b567d9c87a6b077e6ebcf92f6"
             },
             "dist": {
@@ -40,7 +40,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "MVQN\\": "./src/"
+                    "SpaethTech\\": "./src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -50,7 +50,7 @@
             "authors": [
                 {
                     "name": "Ryan Spaeth",
-                    "email": "rspaeth@mvqn.net"
+                    "email": "rspaeth@spaethtech.com"
                 }
             ],
             "description": "A library of common classes and functions, specifically designed for use in my own projects!",
@@ -3226,7 +3226,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "mvqn/common": 20
+        "spaethtech/common": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

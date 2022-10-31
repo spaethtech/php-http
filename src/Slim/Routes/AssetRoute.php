@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace MVQN\HTTP\Slim\Routes;
+namespace SpaethTech\HTTP\Slim\Routes;
 
-use MVQN\HTTP\Slim\Middleware\Authentication\AuthenticationHandler;
-use MVQN\HTTP\Slim\Middleware\Authentication\Authenticators\Authenticator;
+use SpaethTech\HTTP\Slim\Middleware\Authentication\AuthenticationHandler;
+use SpaethTech\HTTP\Slim\Middleware\Authentication\Authenticators\Authenticator;
 
 use Slim\App;
 use Slim\Container;
@@ -19,7 +19,7 @@ use Slim\Http\Response;
  * Handles routing and provision of static assets.
  *
  * @package UCRM\Slim\Controllers\Common
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  */
 final class AssetRoute extends BuiltInRoute

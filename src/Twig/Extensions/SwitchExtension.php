@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
-namespace MVQN\HTTP\Twig\Extensions;
+namespace SpaethTech\HTTP\Twig\Extensions;
 
-use MVQN\HTTP\Twig\TokenParsers\SwitchTokenParser;
+use SpaethTech\HTTP\Twig\TokenParsers\SwitchTokenParser;
 use Twig\Extension\AbstractExtension;
 use Twig\Extension\GlobalsInterface;
 
 /**
  * Class SwitchExtension
  *
- * @package MVQN\Twig\Extensions
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @package SpaethTech\Twig\Extensions
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  */
 final class SwitchExtension extends AbstractExtension implements GlobalsInterface

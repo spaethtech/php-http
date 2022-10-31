@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MVQN\HTTP\Slim\Middleware\Authentication;
+namespace SpaethTech\HTTP\Slim\Middleware\Authentication;
 
 //use Psr\Container\ContainerInterface as Container;
 //use Psr\Http\Message\ServerRequestInterface as Request;

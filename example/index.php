@@ -4,12 +4,12 @@ declare(strict_types=1);
 require_once __DIR__ . "/../vendor/autoload.php";
 require_once __DIR__ . "/bootstrap.php";
 
-use MVQN\HTTP\Slim\Middleware\Authentication\AuthenticationHandler;
-use MVQN\HTTP\Slim\Middleware\Authentication\Authenticators\FixedAuthenticator;
+use SpaethTech\HTTP\Slim\Middleware\Authentication\AuthenticationHandler;
+use SpaethTech\HTTP\Slim\Middleware\Authentication\Authenticators\FixedAuthenticator;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
-use MVQN\HTTP\Slim\Routes;
+use SpaethTech\HTTP\Slim\Routes;
 use Slim\Route;
 
 
@@ -17,7 +17,7 @@ use Slim\Route;
 /**
  * Use an immediately invoked function here, to avoid global namespace pollution...
  *
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  *
  */
 (function() use ($app)
@@ -117,4 +117,3 @@ use Slim\Route;
     $app->run();
 
 })();
-

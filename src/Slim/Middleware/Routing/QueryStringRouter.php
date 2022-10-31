@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace MVQN\HTTP\Slim\Middleware\Routing;
+namespace SpaethTech\HTTP\Slim\Middleware\Routing;
 
-use MVQN\HTTP\Twig\Extensions\QueryStringRoutingExtension;
+use SpaethTech\HTTP\Twig\Extensions\QueryStringRoutingExtension;
 use Psr\Container\ContainerInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -15,7 +15,7 @@ use Twig\Loader\FilesystemLoader;
  * Class QueryStringRouter
  *
  * @package UCRM\Routing\Middleware
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  *
  */
 class QueryStringRouter
