@@ -1,5 +1,5 @@
 {
-    "name": "spaethtech/http",
+    "name": "spaethtech/php-http",
     "description": "Some common HTTP libraries.",
     "type": "library",
     "license": "MIT",
