@@ -12,14 +12,14 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "~7.3",
+        "php": ">=8.1",
 
         "ext-json": "*",
 
-        "spaethtech/common": "dev-master",
+        "spaethtech/php-support": "*",
 
-        "slim/slim": "~3",
-        "twig/twig": "~2",
+        "slim/slim": "~4",
+        "twig/twig": "~3",
         "slim/twig-view": "~3"
     },
     "require-dev": {
